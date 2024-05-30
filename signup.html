@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="signUp-cont container my-5 d-flex justify-content-center align-items-center">
+        <div class="signIn p-5  text-center">
+                <h1 class="pb-1">Smart Login System</h1>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Enter your name" id="signupName" aria-describedby="textHelp">
+                    <span class="d-none text-danger">Your name should start with a capital letter</span>
+                  </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="Enter your email" id="signupEmail" aria-describedby="emailHelp">
+                  <span class="d-none text-danger">Your email should be similar to email@example.com</span>
+                  <span class="d-none text-danger takenEmail">This email is already taken,find another one</span>
+                  
+
+                </div>
+                <div class="mb-3">
+                  <input placeholder="Enter password" type="password" class="form-control" id="signupPassword">
+                  <span class="d-none text-danger">Your password should contain at least one capital letter,one small letter and a number</span>
+
+                </div>
+                <span class="text-danger d-none warning">All inputs is required</span>
+                <span class="text-success d-none success">success</span>
+                <button type="login" id="signup-btn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-white pb-1">You have an account? <a class='text-white' href='/index.html'>SignIn</a></p>
+             
+        </div>
+        </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
